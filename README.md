@@ -1,8 +1,4 @@
 Leetcode Practice
 
-- [001. Two Sum](https://leetcode.com/problems/two-sum)
-    - [ C ](./001TwoSum/main.c)
-    - [ C++ ](./001TwoSum/main.cpp)
-    - [ Java ](./001TwoSum/Main.java)
-    - [ Python ](./001TwoSum/main.py)
-    - [ Javascript ](./001TwoSum/main.js)
+001. **Two Sum** [Problem](https://leetcode.com/problems/two-sum) [Solution](./001TwoSum/)
+002. **Add Two Numbers** [Problem](https://leetcode.com/problems/add-two-numbers) [Solution](./002AddTwoNumbers/)
