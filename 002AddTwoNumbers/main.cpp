@@ -7,6 +7,7 @@ struct ListNode {
     ListNode() : val(0), next(nullptr) {}
     ListNode(int x) : val(x), next(nullptr) {}
     ListNode(int x, ListNode *next) : val(x), next(next) {}
+    ~ListNode() { delete next; }
 };
 
 ListNode *addTwoNumbers(ListNode *l1, ListNode *l2) {
@@ -81,5 +82,8 @@ int main(){
     printl(input2List);
     ListNode* result = addTwoNumbers(input1List, input2List);
     printl(result);
+    delete input1List;
+    delete input2List;
+    delete result;
     return 0;
 }
