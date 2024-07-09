@@ -10,3 +10,4 @@
 - **Python**:       [Code](./main.py)
 - **Javascript**:   [Code](./main.js)
 - **Rust**:         [Code](./main.rs)
+- **Go**:           [Code](./main.go)
