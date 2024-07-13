@@ -6,7 +6,7 @@ Given an array of integers nums and an integer target, return indices of the two
 
 ### Intuition
 
-- Create an array `pairs` with the element-index pair to keep track of the original array `nums`
+- Create an array `pairs` with element-index pairs to keep track of the original array `nums`
 - Sort the new array `pairs` with the element-index pair in ascending order of the element
 - Use two pointers `i` (at the beginning of `pairs`) and `j` (at the end of `pairs` i.e., len - 1)
 - If the sum of the elements at `i` and `j` is greater than `target`, we decrement `j`
