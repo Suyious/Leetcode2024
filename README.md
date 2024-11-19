@@ -1,12 +1,18 @@
-Leetcode Practice
+## Leetcode Practice
 
 0001. **Two Sum** [Problem](https://leetcode.com/problems/two-sum) [Solution](./001TwoSum/)
 0002. **Add Two Numbers** [Problem](https://leetcode.com/problems/add-two-numbers) [Solution](./002AddTwoNumbers/)
 0003. **Longest Substring Without Repeating Characters** [Problem](https://leetcode.com/problems/longest-substring-without-repeating-characters/) [Solution](./003LongestSubstringWithoutRepeatingCharacters/)
 0005. **Longest Palindromic Substring** [Problem](https://leetcode.com/problems/longest-palindromic-substring/) [Solution](./0005LongestPalindromicSubstring/)
+0011. **Container With Most Water** [Problem](https://leetcode.com/problems/container-with-most-wate/) [Solution](./0011ContainerWithMostWater/)
+0015. **3 Sum** [Problem](https://leetcode.com/problems/3sum/) [Solution](./0015ThreeSum/)
 0036. **Valid Sudoku** [Problem](https://leetcode.com/problems/valid-sudoku/) [Solution](./0036ValidSudoku/)
+0042. **Trapping Rain Water** [Problem](https://leetcode.com/problems/trapping-rain-water) [Solution](./0036ValidSudoku/)
 0049. **Group Anagrams** [Problem](https://leetcode.com/problems/group-anagrams/) [Solution](./0049GroupAnagrams/)
+0121. **Best Time to Buy and Sell Stock** [Problem](https://leetcode.com/problems/best-time-to-buy-and-sell-stock) [Solution](./0049GroupAnagrams/)
+0125. **Valid Palindrome** [Problem](https://leetcode.com/problems/valid-palindrome/) [Solution](./0125ValidPalindrome/)
 0128. **Longest Consecutive Subsequence** [Problem](https://leetcode.com/problems/longest-consecutive-sequence/) [Solution](./0128LongestConsecutiveSubsequence/)
+0168. **Two Sum II - Input Array Is Sorted** [Problem](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted) [Solution](./0168TwoSumIIInputArrayIsSorted/)
 0217. **Contains Duplicate** [Problem](https://leetcode.com/problems/contains-duplicate/) [Solution](./0217ContainsDuplicate/)
 0238. **Product of Array Except Self** [Problem](https://leetcode.com/problems/product-of-array-except-self/) [Solution](./0238ProductOfArrayExceptSelf/)
 0242. **Valid Anagram** [Problem](https://leetcode.com/problems/valid-anagram/) [Solution](./0242ValidAnagram/)
