@@ -1,31 +1,26 @@
-import java.util.HashSet;
+import java.util.HashMap;
 
 public class Main {
 
     public static int lengthOfLongestSubstring(String s) {
-        int i = -1, j = 0, clength = 0, mlength = 0;
-        HashSet<Character> letters = new HashSet<Character>();
+        int i = -1, j = 0, len = 0;
+        HashMap<Character, Integer> letters = new HashMap<>();
         while(j < s.length()) {
-            if(letters.contains(s.charAt(j))) {
-                clength = 0;
-                while(s.charAt(++i) != s.charAt(j)){
-                    letters.remove(s.charAt(i));
-                }
-                j++;
-            } else {
-                letters.add(s.charAt(j));
-                clength = j - i;
-                j++;
+            if(letters.containsKey(s.charAt(j))) {
+                i = Math.max(i, letters.get(s.charAt(j)));
             }
-            if(clength > mlength) {
-                mlength = clength;
-            }
+            letters.put(s.charAt(j), j);
+            len = Math.max(j - i, len);
+            j++;
         }
-        return mlength;
+        return len;
     }
 
     public static void main(String[] args) {
-        String input = "tmmzuxt";
-        System.out.println(lengthOfLongestSubstring(input));
+        System.out.println(lengthOfLongestSubstring("tmmzuxt")); // 5
+        System.out.println(lengthOfLongestSubstring("abcabcbb")); // 3
+        System.out.println(lengthOfLongestSubstring("bbbbb")); // 1
+        System.out.println(lengthOfLongestSubstring("pwwkew")); // 3
+        System.out.println(lengthOfLongestSubstring("abbcaccabdac")); // 4
     }
 }
